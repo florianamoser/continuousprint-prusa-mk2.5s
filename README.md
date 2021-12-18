@@ -1,5 +1,7 @@
 # continuousprint-prusa-mk2.5s
-Config to continously print with a Prusa Mk 2.5s and the Continuous-Print-Plugin in Octoprint. Using brass nozzle cleaning brush to pruge nozzle between prints. 
+Config to continously print with a Prusa Mk 2.5s and the Continuous-Print-Plugin in Octoprint. 
+Using brass nozzle cleaning brush to pruge nozzle between prints. 
+
 Might not work for your use. Test and test before you use it without supervision. What works for me does not necessarily work for you.
 
 **Get:**
@@ -23,7 +25,7 @@ Might not work for your use. Test and test before you use it without supervision
 <img width="1403" alt="Screenshot 2021-12-17 at 17 38 34" src="https://user-images.githubusercontent.com/22799018/146579305-d58054fc-7685-4ee5-996a-28d5608d2283.png">
 
 - after slicing a file in prusaslicer, remove the following lines (purge line front left).
-**IMPORTANT** you need to do this to every file you want to add to the continuous print queue. otherwise the prusa will print a purge line on to of the old purge line at the beginning of each print.
+**IMPORTANT** you need to do this to every file you want to add to the continuous print queue. 
 
 ![Screenshot 2021-12-17 at 17 46 24](https://user-images.githubusercontent.com/22799018/146580275-6e255ae9-5b21-4bcf-964d-88e7de47844c.png)
 
